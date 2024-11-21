@@ -2,12 +2,12 @@ import './App.css';
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
-function App() {
+function Menu() {
   return (
-    <div className="App">
+    <div className="Menu">
       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="App.js">LOGO</Navbar.Brand>
@@ -33,42 +33,28 @@ function App() {
       </Container>
     </Navbar>
     <Container>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
+    <Tabs
+      defaultActiveKey="apps"
+      id="justify-tab-example"
+      className="mb-3"
+      justify
+    >
+      <Tab eventKey="apps" title="Appetizers">
+        Appetizers
+      </Tab>
+      <Tab eventKey="pasta" title="Pasta Meals">
+        Pasta Meals
+      </Tab>
+      <Tab eventKey="pizza" title="Make Your Own Pizza">
+        Make Your Own Pizza
+      </Tab>
+      <Tab eventKey="drinks" title="Drinks">
+        Drinks
+      </Tab>
+    </Tabs>
     </Container>
     </div>
   );
 }
 
-export default App;
+export default Menu;
