@@ -57,10 +57,10 @@ function App() {
         <div class="container p-4">
           <section class="">
             <div class="row">
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
               <img src='https://mdbootstrap.com/img/new/standard/nature/184.webp' alt='...' className="footer-img"/>
               </div>
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <h5 class="text-uppercase">Eat Some More</h5>
                 <ul class="list-unstyled mb-0">
                   <li>
@@ -77,7 +77,7 @@ function App() {
                   </li>
                 </ul>
               </div>
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <h5 class="text-uppercase">Contact Us</h5>
 
                 <ul class="list-unstyled mb-0">
