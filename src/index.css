@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,88 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Default height for small devices */
+@media (max-width: 991px) {
+  .menu{
+    margin: 0.5rem;
+    max-width:fit-content;
+  }
+  .about{
+    margin: 0.5rem;
+    max-width:fit-content;
+  }
+  .contact{
+    margin: 0.5rem;
+    max-width:fit-content;
+  }
+  .reserve{
+    margin: 0.5rem;
+    max-width:fit-content;
+  }
+  #intro-example{
+    min-height:300px;
+  }
+  .header-text{
+    font-size: 2em;
+    text-align: center;
+  }
+  .subheader-text{
+    font-size: 1em;
+    text-align: center;
+  }
+  .text-overlay{
+    align-items: center !important;
+  }
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+  .menu{
+    margin: 3rem;
+  }
+  .about{
+    margin: 3rem;
+  }
+  .contact{
+    margin: 3rem;
+  }
+  .reserve{
+    margin: 3rem;
+    max-width:fit-content;
+  }
+  #intro-example{
+    min-height:600px;
+  }
+  .header-text{
+    font-size: 5em;
+  }
+  .subheader-text{
+    font-size: 2em;
+  }
+  .text-overlay{
+    align-items: left !important;
+    justify-content: center !important;
+    height:100%;
+  }
+}
+
+.map-img{
+  max-width:75%;
+}
+.footer-img{
+  max-width:50%;
+}
+
+.about-img{
+  max-width:50%;
+}
+
+.logo-img{
+  max-width:10%;
+}
+
+.home-btn{
+  max-width: 150px;
 }
