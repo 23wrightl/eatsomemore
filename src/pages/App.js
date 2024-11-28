@@ -7,15 +7,17 @@ import About from './About.js';
 import Home from './Home.js';
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import logo from '../img/3.png';
+import '../App.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+      <Navbar collapseOnSelect expand="lg" className="navbar-custom">
         <Container>
         <Navbar.Brand href="/">
             <img
-              src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
+              src={logo}
               width="30"
               height="30"
               className="d-inline-block align-top"
@@ -53,7 +55,7 @@ function App() {
       </Routes>
     </BrowserRouter>
     
-      <footer class="bg-light text-center mt-5">
+      <footer>
         <div class="container p-4">
           <section class="">
             <div class="row">
@@ -64,16 +66,16 @@ function App() {
                 <h5 class="text-uppercase">Eat Some More</h5>
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="/menu" class="text-dark">Menu</a>
+                    <a href="/menu" class="text-white">Menu</a>
                   </li>
                   <li>
-                    <a href="/reserve" class="text-dark">Reserve</a>
+                    <a href="/reserve" class="text-white">Reserve</a>
                   </li>
                   <li>
-                    <a href="/contact" class="text-dark">Contact Us</a>
+                    <a href="/contact" class="text-white">Contact Us</a>
                   </li>
                   <li>
-                    <a href="/about" class="text-dark">About Us</a>
+                    <a href="/about" class="text-white">About Us</a>
                   </li>
                 </ul>
               </div>
@@ -82,13 +84,13 @@ function App() {
 
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="#!" class="text-dark">Address</a>
+                    <a href="#!" class="text-white">Address</a>
                   </li>
                   <li>
-                    <a href="#!" class="text-dark">Email</a>
+                    <a href="#!" class="text-white">Email</a>
                   </li>
                   <li>
-                    <a href="#!" class="text-dark">Phone #</a>
+                    <a href="#!" class="text-white">Phone #</a>
                   </li>
                 </ul>
               </div>
@@ -98,7 +100,7 @@ function App() {
         </div>
         <div class="text-center p-3">
           © 2020 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
         </div>
       </footer>
     </div>

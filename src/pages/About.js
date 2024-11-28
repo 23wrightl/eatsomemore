@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { MDBContainer} from 'mdb-react-ui-kit';
+import '../App.css';
 
 function About() {
   return (

@@ -4,6 +4,7 @@ import {
   MDBBtn,
   MDBContainer
 } from 'mdb-react-ui-kit';
+import '../App.css';
 
 function Reserve() {
   return (

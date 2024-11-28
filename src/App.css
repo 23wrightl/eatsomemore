@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f15330;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f15330;
 }
 
 .App-link {
@@ -36,4 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-custom {
+  background-color: #f15330; 
+}
+
+.navbar-custom .navbar-nav .nav-link,
+.navbar-custom .navbar-brand {
+  color: white !important;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
 
