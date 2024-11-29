@@ -8,6 +8,7 @@ import Home from './Home.js';
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import logo from '../img/3.png';
+import logoF from '../img/1.png';
 import '../App.css';
 
 function App() {
@@ -60,7 +61,7 @@ function App() {
           <section class="">
             <div class="row">
               <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-              <img src='https://mdbootstrap.com/img/new/standard/nature/184.webp' alt='...' className="footer-img"/>
+              <img src={logoF} alt='...' className="footer-img"/>
               </div>
               <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <h5 class="text-uppercase">Eat Some More</h5>

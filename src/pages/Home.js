@@ -8,6 +8,11 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
+import '../App.css';
+import logo from '../img/StoveReal.jpg';
+import logoG from '../img/GarlicKnots.jpg'
+import logoM from '../img/MozerellaSticks.png' 
+import logoS from '../img/Garlic-Lemon-Salmon.jpg'
 
 function Home() {
   return (
@@ -15,7 +20,7 @@ function Home() {
     <div
         id='intro-example'
         className='p-5 bg-image'
-        style={{ backgroundImage: "url('https://mdbootstrap.com/img/new/slides/041.webp')" }}
+        style={{ backgroundImage: `url(${logo})`, filter: 'grayscale(100%)', }}
       >
         <div className='mask p-5' style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }}>
           <div className='h-100 container d-flex'>
@@ -41,9 +46,9 @@ function Home() {
       <MDBRow className='mb-5'>
         <MDBCol size='md'>
           <MDBCard>
-            <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+          <MDBCardImage className="card-img" src={logoG} position='top' alt='Garlic Knots' />
             <MDBCardBody>
-              <MDBCardTitle>Card title</MDBCardTitle>
+              <MDBCardTitle>Garlic Knots</MDBCardTitle>
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>
@@ -53,9 +58,9 @@ function Home() {
         </MDBCol>
         <MDBCol size='md'>
           <MDBCard>
-            <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+            <MDBCardImage className="card-img" src={logoM} position='top' alt='Mozzarella Sticks' />
             <MDBCardBody>
-              <MDBCardTitle>Card title</MDBCardTitle>
+              <MDBCardTitle>Mozzarella Sticks</MDBCardTitle>
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>
@@ -65,9 +70,9 @@ function Home() {
         </MDBCol>
         <MDBCol size='md'>
           <MDBCard>
-            <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+            <MDBCardImage className="card-img" src={logoS} position='top' alt='Pan-Seared Salmon' />
             <MDBCardBody>
-              <MDBCardTitle>Card title</MDBCardTitle>
+              <MDBCardTitle>Pan-Seared Salmon</MDBCardTitle>
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>

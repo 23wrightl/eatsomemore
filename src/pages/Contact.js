@@ -1,5 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { MDBContainer } from 'mdb-react-ui-kit';
+import '../App.css';
+import logo from '../img/Location.png'
 
 function Contact() {
   return (
@@ -16,7 +18,7 @@ function Contact() {
           <div>Sunday: 2 - 10</div>
         </div>
         <div className="col-md-5 text-center">
-          <img src='https://mdbootstrap.com/img/new/standard/nature/184.webp' alt='...' className="map-img"/>
+          <img src={logo} alt='...' className="map-img"/>
         </div>
       </div>
       </div>
