@@ -59,6 +59,13 @@ footer {
   object-fit: cover;
 }
 
+.about-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
 .mdb-pasta-item {
   margin-bottom: 5px; /* Adjust spacing as needed */
 }

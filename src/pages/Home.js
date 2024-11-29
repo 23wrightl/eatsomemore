@@ -13,6 +13,7 @@ import logo from '../img/StoveReal.jpg';
 import logoG from '../img/GarlicKnots.jpg'
 import logoM from '../img/MozerellaSticks.png' 
 import logoS from '../img/Garlic-Lemon-Salmon.jpg'
+import logoTwo from '../img/2.png'
 
 function Home() {
   return (
@@ -52,7 +53,7 @@ function Home() {
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>
-              <MDBBtn href='#'>Button</MDBBtn>
+              <MDBBtn href='#'>To Menu</MDBBtn>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
@@ -64,7 +65,7 @@ function Home() {
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>
-              <MDBBtn href='#'>Button</MDBBtn>
+              <MDBBtn href='#'>To Menu</MDBBtn>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
@@ -76,14 +77,14 @@ function Home() {
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>
-              <MDBBtn href='#'>Button</MDBBtn>
+              <MDBBtn href='#'>To Menu</MDBBtn>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
       </MDBRow>
       <div className="d-flex justify-content-left">
         <div className="">
-          <img src='https://mdbootstrap.com/img/new/standard/nature/184.webp' alt='...' className="map-img"/>
+          <img src={logoTwo} alt='...' className="map-img"/>
         </div>
         <div className="p-5">
           <h3 className='mb-4'>Our Story</h3>

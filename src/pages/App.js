@@ -41,7 +41,7 @@ function App() {
             </Nav>
             <Nav>
               <Nav.Link href="/about">About Us</Nav.Link>
-              <Nav.Link eventKey={2} href="">Call Now @ 000-000-0000</Nav.Link>
+              <Nav.Link eventKey={2} href="">Call Now @ (203) 999-9999</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -85,13 +85,13 @@ function App() {
 
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="#!" class="text-white">Address</a>
+                    <a href="#!" class="text-white">Address: </a>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">Email</a>
+                    <a href="#!" class="text-white">Email: eatsomemore@marist.edu</a>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">Phone #</a>
+                    <a href="#!" class="text-white">Phone: (203) 999-9999</a>
                   </li>
                 </ul>
               </div>
