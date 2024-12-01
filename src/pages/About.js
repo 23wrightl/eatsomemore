@@ -3,6 +3,7 @@ import { MDBContainer} from 'mdb-react-ui-kit';
 import '../App.css';
 import logoL from '../img/Lainey.JPG'
 import logoA from '../img/Andrew.jpg'
+import logoR from '../img/ReRe.jpg'
 
 function About() {
   return (
@@ -11,7 +12,7 @@ function About() {
       <h1 className='mt-3 mb-3'>About Us</h1>
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
-          <img src='https://mdbootstrap.com/img/new/standard/nature/184.webp' alt='...' className="about-img"/>
+          <img src={logoR} alt='...' className="about-img"/>
         </div>
         <div class="col-md-8 mb-3">
           <h3>Sophia Masone</h3>
