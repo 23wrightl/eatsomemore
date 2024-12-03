@@ -88,9 +88,8 @@ function Home() {
         </div>
         <div className="p-5">
           <h3 className='mb-4'>Our Story</h3>
-          <div className="text-left">Text Goes Here</div>
+          <div className="text-left">We are an Italian-inspired restaurant, dedicated to creating an authentic and positive restaurant experience for all diners. We use family recipes, passed down between generations, in order to bring a feel of home to your plate.</div>
         </div>
-        
       </div>
     </MDBContainer>
     </div>
