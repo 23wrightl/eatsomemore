@@ -37,7 +37,7 @@ function About() {
         <div class="col-md-8 mb-3">
           <h3>Andrew Lombardo</h3>
           <h5><ul>Front-end Programmer</ul><ul>Trello Manager</ul></h5>
-          <p>Bio of person</p>
+          <p>Sophomore Computer Science/Cyber Security Student. Designed the front end of the website, added text to the website and managed the Trello.</p>
         </div>
       </div>
       <div class="row mb-5">

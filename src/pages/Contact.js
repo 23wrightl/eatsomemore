@@ -11,7 +11,9 @@ function Contact() {
       <div className="row mb-5">
         <div className="col-md-5 mb-3">
           <div>eatsomemore@marist.edu (203) 999-9999</div>
-          <div>## Street Name</div>
+          <p></p>
+          <div>6 Gourd Lake</div>
+          <p></p>
           <div>Hours:</div>
           <div>Monday - Friday: 12 - 11 </div>
           <div>Saturday: 10 - 11</div>

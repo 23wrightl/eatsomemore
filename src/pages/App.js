@@ -11,6 +11,7 @@ import logo from '../img/3.png';
 import logoF from '../img/1.png';
 import '../App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -28,20 +29,20 @@ function App() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav">&#8801;</Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <NavDropdown title="Full Menu" id="collapsible-nav-dropdown">
-                <NavDropdown.Item href="/menu#apps">Appetizers</NavDropdown.Item>
+              <NavDropdown title="Full Menu" id="collapsible-nav-dropdown" className="headerText">
+                <NavDropdown.Item href="/menu#apps" className="headerText">Appetizers</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/menu#pasta">Build Your Own Pasta</NavDropdown.Item>
-                <NavDropdown.Item href="/menu#pizza">Build Your Own Pizza</NavDropdown.Item>
+                <NavDropdown.Item href="/menu#pasta" className="noHeaderText">Build Your Own Pasta</NavDropdown.Item>
+                <NavDropdown.Item href="/menu#pizza" className="noHeaderText">Build Your Own Pizza</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="menu#drinks">Drinks</NavDropdown.Item>
+                <NavDropdown.Item href="menu#drinks" className="noHeaderText">Drinks</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/reserve">Reservations</Nav.Link>
-              <Nav.Link href="/contact">Contact Us</Nav.Link>
+              <Nav.Link href="/reserve" className="headerText">Reservations</Nav.Link>
+              <Nav.Link href="/contact" className="headerText">Contact Us</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="/about">About Us</Nav.Link>
-              <Nav.Link eventKey={2} href="">Call Now @ (203) 999-9999</Nav.Link>
+              <Nav.Link href="/about" className="headerText">About Us</Nav.Link>
+              <Nav.Link eventKey={2} href="" className="headerText">Call Now @ (203) 999-9999</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -82,7 +83,6 @@ function App() {
               </div>
               <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <h5 class="text-uppercase">Contact Us</h5>
-
                 <ul class="list-unstyled mb-0">
                   <li>
                     <a href="#!" class="text-white">Address: </a>
