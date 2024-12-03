@@ -4,6 +4,7 @@ import '../App.css';
 import logoL from '../img/Lainey.JPG'
 import logoA from '../img/Andrew.jpg'
 import logoR from '../img/ReRe.jpg'
+import logoC from '../img/Chris.png'
 
 function About() {
   return (
@@ -42,7 +43,7 @@ function About() {
       </div>
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
-          <img src='https://mdbootstrap.com/img/new/standard/nature/184.webp' alt='...' className="about-img"/>
+          <img src={logoC} alt='...' className="about-img"/>
         </div>
         <div class="col-md-8 mb-3">
           <h3>Christopher Castillo</h3>
