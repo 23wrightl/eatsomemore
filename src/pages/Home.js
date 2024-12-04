@@ -53,7 +53,7 @@ function Home() {
               <MDBCardText>
                 Fresh Baked Rolls, Garlic, Butter, Parsley, Italian Seasoning
               </MDBCardText>
-              <MDBBtn href='#' style={{ backgroundColor: '#f15330', color: 'white' }}>To Menu</MDBBtn>
+              <MDBBtn href='/menu' style={{ backgroundColor: '#f15330', color: 'black', fontWeight: 'bold'}}>To Menu</MDBBtn>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
@@ -65,7 +65,7 @@ function Home() {
               <MDBCardText>
                Breading, Mozerella Cheese, Parsley. Served With Marinara Sauce
               </MDBCardText>
-              <MDBBtn href='#' style={{ backgroundColor: '#f15330', color: 'white' }}>To Menu</MDBBtn>
+              <MDBBtn href='/menu' style={{ backgroundColor: '#f15330', color: 'black', fontWeight: 'bold' }}>To Menu</MDBBtn>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
@@ -77,7 +77,7 @@ function Home() {
               <MDBCardText>
                 Fresh Caught Salmon, Cook In Butter, Garnished With Lemon And Wilted Greens.
               </MDBCardText>
-              <MDBBtn href='#' style={{ backgroundColor: '#f15330', color: 'white' }}>To Menu</MDBBtn>
+              <MDBBtn href='/menu' style={{ backgroundColor: '#f15330', color: 'black', fontWeight: 'bold' }}>To Menu</MDBBtn>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
