@@ -13,7 +13,7 @@ function About() {
       <h1 className='mt-3 mb-3'>About Us</h1>
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
-          <img src={logoR} alt='...' className="about-img"/>
+          <img src={logoR} alt='Sophia Masone' className="about-img"/>
         </div>
         <div class="col-md-8 mb-3">
           <h3>Sophia Masone</h3>
@@ -23,7 +23,7 @@ function About() {
       </div>
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
-          <img src= {logoL} alt='...' className="about-img"/>
+          <img src= {logoL} alt='Lainey Wright' className="about-img"/>
         </div>
         <div class="col-md-8 mb-3">
           <h3>Lainey Wright</h3>
@@ -33,7 +33,7 @@ function About() {
       </div>
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
-          <img src={logoA} alt='...' className="about-img"/>
+          <img src={logoA} alt='Andrew Lombardo' className="about-img"/>
         </div>
         <div class="col-md-8 mb-3">
           <h3>Andrew Lombardo</h3>
@@ -43,7 +43,7 @@ function About() {
       </div>
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
-          <img src={logoC} alt='...' className="about-img"/>
+          <img src={logoC} alt='Christopher Castillo' className="about-img"/>
         </div>
         <div class="col-md-8 mb-3">
           <h3>Christopher Castillo</h3>
