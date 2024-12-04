@@ -14,7 +14,7 @@ function Menu() {
           <div className='fw-bold'>Garlic Knots</div>Fresh Baked Rolls, Garlic, Butter, Parsley, Italian Seasoning
         </div>
         <MDBBadge pill light>
-          3
+          $3
         </MDBBadge>
       </MDBListGroupItem>
       <MDBListGroupItem className='d-flex justify-content-between align-items-start'>
@@ -22,7 +22,7 @@ function Menu() {
           <div className='fw-bold'>Bread Sticks</div>Freshed Baked Bread, Served With Butter
         </div>
         <MDBBadge pill light>
-          3
+          $3
         </MDBBadge>
       </MDBListGroupItem>
       <MDBListGroupItem className='d-flex justify-content-between align-items-start'>
@@ -30,7 +30,7 @@ function Menu() {
           <div className='fw-bold'>Mozzarella Sticks</div>Breading, Mozerella Cheese, Parsley. Served With Marinara Sauce
         </div>
         <MDBBadge pill light>
-          3
+          $3
         </MDBBadge>
       </MDBListGroupItem>
       <MDBListGroupItem className='d-flex justify-content-between align-items-start'>
@@ -38,7 +38,7 @@ function Menu() {
           <div className='fw-bold'>Soup Of The Day</div>Ask Your Server
         </div>
         <MDBBadge pill light>
-          3
+          $3
         </MDBBadge>
       </MDBListGroupItem>
       <MDBListGroupItem className='d-flex justify-content-between align-items-start'>
@@ -46,7 +46,7 @@ function Menu() {
           <div className='fw-bold'>Arancini</div>Breaded Outside Stuffed With Beef, Caciocavallo Cheese, Peas
         </div>
         <MDBBadge pill light>
-          4
+          $4
         </MDBBadge>
       </MDBListGroupItem>
       <MDBListGroupItem className='d-flex justify-content-between align-items-start'>
@@ -54,7 +54,7 @@ function Menu() {
           <div className='fw-bold'>Supplì</div>Egg and Breaded Outside, Stuffed With Risotto Rice, Tomato Sauce, Mozzarella Cheese
         </div>
         <MDBBadge pill light>
-          4
+          $4
         </MDBBadge>
       </MDBListGroupItem>
     </MDBListGroup>
@@ -133,7 +133,7 @@ function Menu() {
           <div className='fw-bold'>Pan-Seared Fish</div> Fresh Caught Salmon, Cook In Butter, Garnished With Lemon And Wilted Greens.
         </div>
         <MDBBadge pill light>
-          20
+          $20
         </MDBBadge>
       </MDBListGroupItem>
       <MDBListGroupItem className='d-flex justify-content-between align-items-start'>
@@ -141,7 +141,7 @@ function Menu() {
           <div className='fw-bold'>Filet Mignon</div>Seared In Butter, Olive Oil
         </div>
         <MDBBadge pill light>
-          30
+          $30
         </MDBBadge>
       </MDBListGroupItem>
       <MDBListGroupItem className='d-flex justify-content-between align-items-start'>
@@ -149,7 +149,7 @@ function Menu() {
           <div className='fw-bold'>Chicken Parmigiana</div>Breading, Parmesan Cheese, Garlic Powder, Italian Seasoning, Served With Green Beans, Mushrooms, Mash Potatos 
         </div>
         <MDBBadge pill light>
-          20
+          $20
         </MDBBadge>
       </MDBListGroupItem>
     </MDBListGroup>
@@ -164,7 +164,7 @@ function Menu() {
             <div classname="mdb-pasta-item">Coca-Cola</div>
         </div>
         <MDBBadge pill light>
-          4
+          $4
         </MDBBadge>
       </MDBListGroupItem>
       <MDBListGroupItem className='d-flex justify-content-between align-items-start'>
@@ -172,7 +172,7 @@ function Menu() {
           <div className='fw-bold'>Water</div>Tap
         </div>
         <MDBBadge pill light>
-          2
+          $2
         </MDBBadge>
       </MDBListGroupItem>
       <MDBListGroupItem className='d-flex justify-content-between align-items-start'>
@@ -184,7 +184,7 @@ function Menu() {
             <div classname="mdb-pasta-item">Merlot</div>
         </div>
         <MDBBadge pill light>
-          12
+          $12
         </MDBBadge>
       </MDBListGroupItem>
       <MDBListGroupItem className='d-flex justify-content-between align-items-start'>
@@ -192,7 +192,7 @@ function Menu() {
           <div className='fw-bold'>Margarita</div>Tequilla, Tripple Sec, Lemon-Lime
         </div>
         <MDBBadge pill light>
-          14
+          $14
         </MDBBadge>
       </MDBListGroupItem>
     </MDBListGroup>
