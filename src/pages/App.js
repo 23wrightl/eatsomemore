@@ -85,7 +85,7 @@ function App() {
                 <h5 class="text-uppercase">Contact Us</h5>
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <div class="text-white">Address: </div>
+                    <div class="text-white">Address: 6 Gourd Lake<br/>Poughkeepsie, NY, 12601</div>
                   </li>
                   <li>
                     <div class="text-white">Email: eatsomemore@marist.edu</div>
@@ -100,8 +100,7 @@ function App() {
 
         </div>
         <div class="text-center p-3">
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          © 2024 Copyright: Marist Student Group
         </div>
       </footer>
     </div>
