@@ -28,7 +28,7 @@ function About() {
         <div class="col-md-8 mb-3">
           <h3>Lainey Wright</h3>
           <h5><ul>Framework Designer</ul><ul>Back-end Programmer</ul></h5>
-          <p>Chill Person</p>
+          <p>Lainey Wright is a Marist College undergratuate who focsued on back-end developmentnof the site. She also created the framework for the front-end and assisted in building the project presentation</p>
         </div>
       </div>
       <div class="row mb-5">
@@ -38,7 +38,7 @@ function About() {
         <div class="col-md-8 mb-3">
           <h3>Andrew Lombardo</h3>
           <h5><ul>Front-end Programmer</ul><ul>Trello Manager</ul></h5>
-          <p>Sophomore Computer Science/Cyber Security Student. Designed the front end of the website, added text to the website and managed the Trello.</p>
+          <p>Andrew Lombardo is a Sophomore Computer Science/Cyber Security student. Designed the front end of the website, added text to the website and managed the Trello.</p>
         </div>
       </div>
       <div class="row mb-5">

@@ -53,7 +53,7 @@ function Home() {
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>
-              <MDBBtn href='#'>To Menu</MDBBtn>
+              <MDBBtn href='#' style={{ backgroundColor: '#f15330', color: 'white' }}>To Menu</MDBBtn>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
@@ -65,7 +65,7 @@ function Home() {
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>
-              <MDBBtn href='#'>To Menu</MDBBtn>
+              <MDBBtn href='#' style={{ backgroundColor: '#f15330', color: 'white' }}>To Menu</MDBBtn>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
@@ -77,7 +77,7 @@ function Home() {
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>
-              <MDBBtn href='#'>To Menu</MDBBtn>
+              <MDBBtn href='#' style={{ backgroundColor: '#f15330', color: 'white' }}>To Menu</MDBBtn>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>

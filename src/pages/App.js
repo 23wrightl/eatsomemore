@@ -30,7 +30,7 @@ function App() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <NavDropdown title="Full Menu" id="collapsible-nav-dropdown" className="headerText">
-                <NavDropdown.Item href="/menu#apps" className="headerText">Appetizers</NavDropdown.Item>
+                <NavDropdown.Item href="/menu#apps" className="noHeaderText">Appetizers</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="/menu#pasta" className="noHeaderText">Build Your Own Pasta</NavDropdown.Item>
                 <NavDropdown.Item href="/menu#pizza" className="noHeaderText">Build Your Own Pizza</NavDropdown.Item>
