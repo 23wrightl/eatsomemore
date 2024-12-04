@@ -43,7 +43,7 @@ function Reserve() {
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
         <label class="form-check-label" for="inlineRadio2">10:00PM</label>
       </div>
-      <MDBBtn type='submit' className='mb-4' block>
+      <MDBBtn type='submit' className='mb-4' block style={{ backgroundColor: '#f15330', color: 'black', fontWeight: 'bold' }}>
         Reserve
       </MDBBtn>
     </form>
