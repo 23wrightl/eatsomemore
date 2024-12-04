@@ -84,7 +84,7 @@ function Home() {
       </MDBRow>
       <div className="d-flex justify-content-left">
         <div className="">
-          <img src={logoTwo} alt='...' className="map-img"/>
+          <img src={logoTwo} alt='black Eat Some More Logo on white background' className="map-img"/>
         </div>
         <div className="p-5">
           <h3 className='mb-4'>Our Story</h3>

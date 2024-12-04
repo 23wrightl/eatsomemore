@@ -62,7 +62,7 @@ function App() {
           <section class="">
             <div class="row">
               <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-              <img src={logoF} alt='...' className="footer-img"/>
+              <img src={logoF} alt='white Eat Some More logo on black background' className="footer-img"/>
               </div>
               <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <h5 class="text-uppercase">Eat Some More</h5>
