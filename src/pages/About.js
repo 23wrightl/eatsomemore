@@ -18,7 +18,7 @@ function About() {
         <div class="col-md-8 mb-3">
           <h3>Sophia Masone</h3>
           <h5><ul>Documentation</ul><ul>Programmer</ul></h5>
-          <p>Chill Person</p>
+          <p>Sophia Masone is a Marist College sophomore majoring in Computer Science (Software Development, Game Design). They focused on managing the documentation for the project and assisted in the concept work for the site</p>
         </div>
       </div>
       <div class="row mb-5">
@@ -28,7 +28,7 @@ function About() {
         <div class="col-md-8 mb-3">
           <h3>Lainey Wright</h3>
           <h5><ul>Framework Designer</ul><ul>Back-end Programmer</ul></h5>
-          <p>Lainey Wright is a Marist College undergratuate who focsued on back-end developmentnof the site. She also created the framework for the front-end and assisted in building the project presentation</p>
+          <p>Lainey Wright is a Marist College undergratuate who focsued on back-end development of the site. She also created the framework for the front-end and assisted in building the project presentation</p>
         </div>
       </div>
       <div class="row mb-5">
@@ -48,7 +48,7 @@ function About() {
         <div class="col-md-8 mb-3">
           <h3>Christopher Castillo</h3>
           <h5><ul>Lead Graphic Design</ul><ul>Reservation Programmer</ul></h5>
-          <p>Bio of person</p>
+          <p>Christopher Castillo is a mansplanner, despite endless denial</p>
         </div>
       </div>
       </div>
