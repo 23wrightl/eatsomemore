@@ -70,7 +70,7 @@ function Menu() {
             <div classname="mdb-pasta-item">Elbow</div>
         </div>
         <MDBBadge pill light>
-          Base 10
+          Base $10
         </MDBBadge>
       </MDBListGroupItem>
       <MDBListGroupItem className='d-flex justify-content-between align-items-start'>
