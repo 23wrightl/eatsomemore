@@ -51,7 +51,7 @@ function Home() {
             <MDBCardBody>
               <MDBCardTitle>Garlic Knots</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+                Fresh Baked Rolls, Garlic, Butter, Parsley, Italian Seasoning
               </MDBCardText>
               <MDBBtn href='#' style={{ backgroundColor: '#f15330', color: 'white' }}>To Menu</MDBBtn>
             </MDBCardBody>
@@ -63,7 +63,7 @@ function Home() {
             <MDBCardBody>
               <MDBCardTitle>Mozzarella Sticks</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+               Breading, Mozerella Cheese, Parsley. Served With Marinara Sauce
               </MDBCardText>
               <MDBBtn href='#' style={{ backgroundColor: '#f15330', color: 'white' }}>To Menu</MDBBtn>
             </MDBCardBody>
@@ -75,7 +75,7 @@ function Home() {
             <MDBCardBody>
               <MDBCardTitle>Pan-Seared Salmon</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+                Fresh Caught Salmon, Cook In Butter, Garnished With Lemon And Wilted Greens.
               </MDBCardText>
               <MDBBtn href='#' style={{ backgroundColor: '#f15330', color: 'white' }}>To Menu</MDBBtn>
             </MDBCardBody>
