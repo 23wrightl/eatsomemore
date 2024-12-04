@@ -38,7 +38,7 @@ function About() {
         <div class="col-md-8 mb-3">
           <h3>Andrew Lombardo</h3>
           <h5><ul>Front-end Programmer</ul><ul>Trello Manager</ul></h5>
-          <p>Andrew Lombardo is a Sophomore Computer Science/Cyber Security student. Designed the front end of the website, added text to the website and managed the Trello.</p>
+          <p>Andrew Lombardo is a Sophomore Computer Science/Cyber Security student. Designed the front end of the website, added text to the website and managed the Trello. Assisted in the final presentation</p>
         </div>
       </div>
       <div class="row mb-5">
@@ -48,7 +48,7 @@ function About() {
         <div class="col-md-8 mb-3">
           <h3>Christopher Castillo</h3>
           <h5><ul>Lead Graphic Design</ul><ul>Reservation Programmer</ul></h5>
-          <p>Christopher Castillo is a mansplanner, despite endless denial</p>
+          <p>Christopher Castillo is a Marist College sophomore majoring in Computer Science with a concentration in Game Design and Programming. On this project, Chris focused on brining the sketchs to life, choosing the color pallets, designing the logos for the site, and touching up the sites asethetic</p>
         </div>
       </div>
       </div>
