@@ -47,7 +47,7 @@ function Home() {
       <MDBRow className='mb-5'>
         <MDBCol size='md'>
           <MDBCard>
-          <MDBCardImage className="card-img" src={logoG} position='top' alt='Garlic Knots' />
+          <MDBCardImage className="card-img" src={logoG} position='top' alt='plate of Garlic Knots' />
             <MDBCardBody>
               <MDBCardTitle>Garlic Knots</MDBCardTitle>
               <MDBCardText>
@@ -59,7 +59,7 @@ function Home() {
         </MDBCol>
         <MDBCol size='md'>
           <MDBCard>
-            <MDBCardImage className="card-img" src={logoM} position='top' alt='Mozzarella Sticks' />
+            <MDBCardImage className="card-img" src={logoM} position='top' alt='Mozzarella Stick being pulled apart' />
             <MDBCardBody>
               <MDBCardTitle>Mozzarella Sticks</MDBCardTitle>
               <MDBCardText>
@@ -71,7 +71,7 @@ function Home() {
         </MDBCol>
         <MDBCol size='md'>
           <MDBCard>
-            <MDBCardImage className="card-img" src={logoS} position='top' alt='Pan-Seared Salmon' />
+            <MDBCardImage className="card-img" src={logoS} position='top' alt='Pan-Seared Salmon plated with lemon' />
             <MDBCardBody>
               <MDBCardTitle>Pan-Seared Salmon</MDBCardTitle>
               <MDBCardText>

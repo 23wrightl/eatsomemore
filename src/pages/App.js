@@ -85,13 +85,13 @@ function App() {
                 <h5 class="text-uppercase">Contact Us</h5>
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="#!" class="text-white">Address: </a>
+                    <div class="text-white">Address: </div>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">Email: eatsomemore@marist.edu</a>
+                    <div class="text-white">Email: eatsomemore@marist.edu</div>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">Phone: (203) 999-9999</a>
+                    <div class="text-white">Phone: (203) 999-9999</div>
                   </li>
                 </ul>
               </div>
